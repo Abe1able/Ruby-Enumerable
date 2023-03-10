@@ -1,4 +1,4 @@
-require './myEnumerable'
+require './my_enumerable'
 
 class MyList
   def initialize(*list)
