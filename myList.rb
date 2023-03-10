@@ -1,13 +1,13 @@
-require './enumerable'
+require './myEnumerable'
 
 class MyList
-  def initialize(list)
+  def initialize(*list)
     @list = list
   end
 
   include MyEnumerable
 
   def each(&block)
-      @list.each(&block)
+    @list.each(&block)
   end
 end
