@@ -71,7 +71,7 @@ Install this project with:
 To run the program, execute the following command:
 
 ```sh
-  ruby myList.rb
+  ruby my_list.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
